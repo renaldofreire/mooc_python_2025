@@ -39,22 +39,41 @@
 
 # Programming exercise:
 # Calculator
-num1 = int(input("Number 1: "))
-num2 = int(input("Number 2: "))
-operation = input("Operation: ")
+# num1 = int(input("Number 1: "))
+# num2 = int(input("Number 2: "))
+# operation = input("Operation: ")
+#
+# if operation == "add":
+#     print(f"{num1} + {num2} = {num1+num2}")
+#
+# if operation == "multiply":
+#     print(f"{num1} * {num2} = {num1*num2}")
+#
+# if operation == "subtract":
+#     print(f"{num1} - {num2} = {num1-num2}")
+#
+# print("")
+#
 
-if operation == "add":
-    print(f"{num1} + {num2} = {num1+num2}")
+# Programming exercise:
+# Temperatures
+# fahrenheite_temp = float(input("Please type in a temperature (F)"))
+# celcius_calc = 0.555555555556 * (fahrenheite_temp - 32.0)
+#
+# print(f"{fahrenheite_temp} degrees Fahrenheit equals {celcius_calc} degrees Celsius")
+#
 
-if operation == "multiply":
-    print(f"{num1} * {num2} = {num1*num2}")
+# Programming exercise:
+# Daily wages
+hourly_wage = float(input("Hourly wage: "))
+hours_worked = float(input("Hours worked : "))
+day_week = input("Day of the week: ")
 
-if operation == "subtract":
-    print(f"{num1} - {num2} = {num1-num2}")
+daily_wages = hourly_wage * hours_worked
+sunday_calc = daily_wages * 2
 
-print("")
-
-
-
-
+if day_week != "Sunday":
+    print(f"Daily wages: {daily_wages} euros")
+else:
+    print(f"Daily wages: {sunday_calc} euros")
 
