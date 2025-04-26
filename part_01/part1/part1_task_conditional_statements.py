@@ -70,10 +70,9 @@ hours_worked = float(input("Hours worked : "))
 day_week = input("Day of the week: ")
 
 daily_wages = hourly_wage * hours_worked
-sunday_calc = daily_wages * 2
 
-if day_week != "Sunday":
-    print(f"Daily wages: {daily_wages} euros")
-else:
-    print(f"Daily wages: {sunday_calc} euros")
+if day_week == "Sunday":
+    daily_wages *= 2
+print(f"Daily wages: {daily_wages} euros")
+
 
