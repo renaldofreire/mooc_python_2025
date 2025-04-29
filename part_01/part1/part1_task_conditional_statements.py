@@ -97,30 +97,6 @@
 temp = int(input("Temperature: "))
 rain = input("Will it rain (yes/no): ")
 
-temp_one = "Wear jeans and a T-shirt"
-temp_two = "I recommend a jumper as well"
-temp_three = "Take a jacket with you"
-temp_four = "Make it a warm coat, actually\n I think gloves are in order"
-temp_rain = "Don't forget your umbrella!"
-
-if temp < 5:
-    temp_four
-
-if temp > 20:
-    the_temp = "Wear jeans and a T-shirt"
-
-if temp > 10:
-    the_temp = "I recommend a jumper as well"
-
-if temp < 10:
-    the_temp = "Take a jacket with you"
-
-
-print(the_temp)
-
-if rain == "yes":
-    print("Don't forget your umbrella!")
-
 
 
 
