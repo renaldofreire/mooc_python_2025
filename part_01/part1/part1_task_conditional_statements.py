@@ -91,13 +91,3 @@
 # points *= percent
 # print("You now have", points, "points")
 
-# Programming exercise:
-# What to wear tomorrow
-
-temp = int(input("Temperature: "))
-rain = input("Will it rain (yes/no): ")
-
-
-
-
-
