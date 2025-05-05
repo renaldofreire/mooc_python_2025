@@ -2,7 +2,7 @@
 # Programming exercise:
 # What to wear tomorrow
 print("What is the weather forecast for tomorrow?")
-temp = int(input("Temperature: "))
+temp = float(input("Temperature: "))
 it_rain = input("Will it rain (yes/no): ").lower()
 
 get_shirt = "Wear jeans and a T-shirt"
