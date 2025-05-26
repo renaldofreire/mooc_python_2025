@@ -1,15 +1,10 @@
 # Programming exercise:
 # Number of characters
 
-word = "abcd"
-print(len(word))
+word = input("Please type in a word: ")
+count_word = len(word)
 
-print(len("hi there"))
+if count_word > 1:
+    print(f"There are {count_word} letters in the word {word}")
 
-word2 = "howdydoody"
-length = len(word2)
-print(length)
-
-empty_string = ""
-length = len(empty_string)
-print(length)
+print("Thank you!")
