@@ -1,17 +1,22 @@
 # Programming exercise:
 # Alphabetically in the middle
 
-# letter1 = input("Insira a primeira letra: ")
-# letter2 = input("Insira a segunda letra: ")
-# letter3 = input("Insira a terceira letra: ")
+letter1 = input("1st letter: ")
+letter2 = input("2nd letter: ")
+letter3 = input("2rd letter: ")
 
-a, b, c, d, e, f = 1, 2, 3, 4, 5, 6
+if letter1 < letter2 and letter1 > letter3:
+    print(f"The letter in the middle is {letter1}")
+elif letter1 > letter2 and letter1 < letter3:
+    print(f"The letter in the middle is {letter1}")
+elif letter2 < letter1 and letter2 > letter3:
+    print(f"The letter in the middle is {letter2}")
+elif letter2 > letter1 and letter2 < letter3:
+    print(f"The letter in the middle is {letter2}")
+elif letter3 < letter1 and letter3 > letter2:
+    print(f"The letter in the middle is {letter3}")
+elif letter3 > letter1 and letter3 < letter2:
+    print(f"The letter in the middle is {letter3}")
 
-print(a)
-print(b)
-print(f)
-
-# letter1 = "a"
-# letter2 = "b"
-# letter3 = "c"
+# obs: usando lista esta tarefa seria mais simples
 
