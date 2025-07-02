@@ -15,3 +15,5 @@ while True:
 
     candidate_year += 1
 
+# Mantido parênteses nas expressões para melhorar legibilidade
+
